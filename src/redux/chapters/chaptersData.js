@@ -5,8 +5,8 @@ const CLIENT_ID = '106558cb9bed438da1dd5a61c7cf01dd';
 const CLIENT_SECRET = 'b4fd420bddfd49b7898748d73902eb20';
 const TOKEN_URL = 'https://accounts.spotify.com/api/token';
 const allData = [];
-let token = '';
 let flag = true;
+let token = '';
 
 export const getData = (URL) => async (dispatch) => {
   try {
@@ -31,17 +31,21 @@ export const getData = (URL) => async (dispatch) => {
       method: 'GET',
       headers: { Authorization: `Bearer ${token.access_token}` },
     });
+
     const data = await fetchData.json();
+    const { next } = data;
     allData.push(data.items);
 
-    if (data.next !== '') {
-      getData(data.next);
+    if (next) {
+      dispatch(
+        getData(next),
+      );
+    } else {
+      dispatch({
+        type: SUCCESS_FETCH,
+        payload: allData,
+      });
     }
-
-    dispatch({
-      type: SUCCESS_FETCH,
-      payload: allData,
-    });
   } catch (err) {
     dispatch({
       type: FAIL_FETCH,
@@ -49,10 +53,10 @@ export const getData = (URL) => async (dispatch) => {
   }
 };
 
-const chaptersData = (state = [], action) => {
+const chaptersData = (state = allData, action) => {
   switch (action.type) {
     case GET_TOKEN: return action.payload;
-    case SUCCESS_FETCH: return action.payload;
+    case SUCCESS_FETCH: return action.payload.flat().flat();
     case FAIL_FETCH:
       return { ...state, loading: false, error: action.payload };
     default: return state;

@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { getData } from './redux/chapters/chaptersData';
 /* import { getToken } from './redux/chapters/getToken'; */
 import Main from './pages/Main';
+import Chapters from './pages/Chapters';
 
 const URL = 'https://api.spotify.com/v1/shows/5mriRyXhrPKOll6EKBfdJo/episodes?market=US';
 
@@ -17,6 +18,7 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Main />} />
+        <Route path="/chapters/" element={<Chapters />} />
       </Routes>
     </>
   );
