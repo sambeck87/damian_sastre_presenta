@@ -1,5 +1,5 @@
 .chaptersContainer {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgb(255, 255, 255, 0.1)),url('../images/biblioteca.jpg');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgb(255, 255, 255, 0.1)), url('../images/biblioteca.jpg');
 }
 
 .searcher {
@@ -29,7 +29,7 @@
 
 .list_name {
   width: 61vw;
-  margin: 3vw 3vw 0 0 ;
+  margin: 3vw 3vw 0 0;
 }
 
 .time {
