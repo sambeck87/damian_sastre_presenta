@@ -1,0 +1,31 @@
+#diario_container {
+  margin: 0 3vw 5vw 3vw;
+  border: solid 2px wheat;
+  border-radius: 10px;
+  align-items: center;
+}
+
+#diario_subtitle {
+  font-size: 7vw;
+  font-weight: 700;
+}
+
+.casi_diario {
+  align-items: center;
+}
+
+.video_title {
+  width: 80vw;
+  margin: 0 0 5vw 0;
+  font-size: 5vw;
+  font-weight: 700;
+}
+
+.video {
+  width: 80vw;
+  height: 47vw;
+}
+
+.last {
+  margin: 0 0 10vw 0;
+}

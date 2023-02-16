@@ -18,21 +18,28 @@ const Cuento = () => {
       capitulo = chapters[0]; // eslint-disable-line prefer-destructuring
     }
     return (
-      <div id="dejame_container" className="flex row wrap">
-        <h2>
+      <div id="dejame_container" className="flex column">
+        <h2 id="main_subtitle" className="center">
           Déjame leerte un cuento
         </h2>
-        <div>
-          <h3>Último Capítulo</h3>
-          <a href={capitulo.external_urls.spotify}><img src={capitulo.images[1].url} alt="Imagen_capitulo" /></a>
-          <span>{capitulo.name}</span>
-          <span>{capitulo.release_date}</span>
+        <div className="flex column cuento_content">
+          <h3 className="ultimo">Último Capítulo</h3>
+          <a href={capitulo.external_urls.spotify}><img className="main_image" src={capitulo.images[1].url} alt="Imagen_capitulo" /></a>
+          <span className="center description">{capitulo.name}</span>
+          <span className="release">
+            Publicado:&nbsp;
+            {capitulo.release_date}
+          </span>
         </div>
-        <div>
-          <h3>Último Rapidín</h3>
-          <a href={rapidin.external_urls.spotify}><img src={rapidin.images[1].url} alt="Imagen_rapidin" /></a>
-          <span>{rapidin.name}</span>
-          <span>{rapidin.release_date}</span>
+        <hr className="divisor" />
+        <div className="flex column cuento_content">
+          <h3 className="ultimo" id="ultimo_rapidin">Último Rapidín</h3>
+          <a href={rapidin.external_urls.spotify}><img className="main_image" src={rapidin.images[1].url} alt="Imagen_rapidin" /></a>
+          <span className="center description">{rapidin.name}</span>
+          <span className="rapidin_release release">
+            Publicado:&nbsp;
+            {rapidin.release_date}
+          </span>
 
         </div>
       </div>
