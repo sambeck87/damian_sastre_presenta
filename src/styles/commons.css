@@ -1,0 +1,27 @@
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: rgb(108, 108, 108);
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .column {
+    flex-direction: column;
+  }
+
+  .wrap {
+    flex-wrap: wrap;
+  }

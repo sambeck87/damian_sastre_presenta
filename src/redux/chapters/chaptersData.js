@@ -55,10 +55,10 @@ export const getData = (URL) => async (dispatch) => {
 
 const chaptersData = (state = allData, action) => {
   switch (action.type) {
-    case GET_TOKEN: return action.payload;
+    case GET_TOKEN: return '';
     case SUCCESS_FETCH: return action.payload.flat().flat();
     case FAIL_FETCH:
-      return { ...state, loading: false, error: action.payload };
+      return { ...state, loading: false, error: action.payload.flat().flat() };
     default: return state;
   }
 };
