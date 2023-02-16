@@ -4,3 +4,47 @@
   border-radius: 10px;
   align-content: center;
 }
+
+.cuento_content {
+  align-items: center;
+}
+
+#main_subtitle {
+  font-size: 7vw;
+  font-weight: 700;
+}
+
+.ultimo {
+  font-size: 5vw;
+  font-weight: 700;
+}
+
+.main_image {
+  width: 80vw;
+  height: 80vw;
+  margin: 0 0 3vw 0;
+}
+
+.description {
+  font-size: 4.2vw;
+}
+
+.release {
+  font-size: 4.2vw;
+  font-style: italic;
+}
+
+.divisor {
+  width: 35vw;
+  border: 2px solid wheat;
+  border-radius: 25%;
+  margin: 10vw 29vw;
+}
+
+#ultimo_rapidin {
+  margin: 0 0 5vw 0;
+}
+
+.rapidin_release {
+  margin: 0 0 5vw 0;
+}

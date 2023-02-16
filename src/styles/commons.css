@@ -25,3 +25,7 @@ body {
 .wrap {
   flex-wrap: wrap;
 }
+
+.center {
+  text-align: center;
+}

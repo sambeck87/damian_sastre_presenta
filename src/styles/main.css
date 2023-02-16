@@ -1,6 +1,6 @@
 #main_container {
   background-color: black;
-  padding-top: 5vw;
+  padding: 5vw 0 8vw 0;
   color: white;
 }
 
@@ -14,4 +14,8 @@
 
 #about_me {
   margin: 0 3vw 0 0;
+  width: 50vw;
+  height: 60vw;
+  overflow-x: scroll;
+  font-size: 4.25vw;
 }
