@@ -1,0 +1,11 @@
+#header {
+  background-color: black;
+  color: antiquewhite;
+  height: 20vw;
+  align-items: center;
+}
+
+#title {
+  font-size: 5vw;
+  margin: 0 3vw 0 3vw;
+}

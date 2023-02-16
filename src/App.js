@@ -5,6 +5,8 @@ import { getData } from './redux/chapters/chaptersData';
 /* import { getToken } from './redux/chapters/getToken'; */
 import Main from './pages/Main';
 import Chapters from './pages/Chapters';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 const URL = 'https://api.spotify.com/v1/shows/5mriRyXhrPKOll6EKBfdJo/episodes?market=US';
 
@@ -12,13 +14,14 @@ const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getData(URL));
-    /* dispatch(getToken()); */
   }, [dispatch]);
   return (
     <>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/chapters/" element={<Chapters />} />
+        <Route path="/Capitulos/" element={<Chapters />} />
+        <Route path="/Acerca de/" element={<About />} />
+        <Route path="/Contacto/" element={<Contact />} />
       </Routes>
     </>
   );

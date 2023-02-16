@@ -1,0 +1,17 @@
+#main_container {
+  background-color: black;
+  padding-top: 5vw;
+  color: white;
+}
+
+.damian_image {
+  background-image: url('../images/damian.jpg');
+  background-size: contain;
+  width: 40vw;
+  height: 60vw;
+  margin: 0 4vw 5vw 3vw;
+}
+
+#about_me {
+  margin: 0 3vw 0 0;
+}

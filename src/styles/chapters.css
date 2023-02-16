@@ -1,0 +1,55 @@
+.chaptersContainer {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgb(255, 255, 255, 0.1)), url('../images/biblioteca.jpg');
+}
+
+.searcher {
+  background-color: rgb(240, 248, 255, 0.8);
+  width: 100%;
+  padding: 2vw 0;
+  border: none;
+  margin: 0 0 3vw 0;
+  font-size: 5vw;
+}
+
+.chapterContainer {
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 0 3vw 3vw 3vw;
+  background-color: rgb(0, 0, 0, 0.8);
+  font-size: 4.3vw;
+  color: white;
+}
+
+.thumb {
+  width: 16vw;
+  height: 16vw;
+  margin: 3vw 5vw 2vw 3vw;
+  border-radius: 50%;
+}
+
+.list_name {
+  width: 61vw;
+  margin: 3vw 3vw 0 0;
+}
+
+.time {
+  margin: 2vw 0 0 0;
+}
+
+.spotify_link {
+  width: 100%;
+  text-align: center;
+  margin: 3vw 0 3vw 0;
+}
+
+.chap_link {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.chap_link::after {
+  color: bisque;
+}
