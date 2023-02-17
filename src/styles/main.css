@@ -1,6 +1,6 @@
 #main_container {
   background-color: black;
-  padding: 5vw 0 8vw 0;
+  padding: 5vw 0 0 0;
   color: white;
 }
 
@@ -18,4 +18,15 @@
   height: 60vw;
   overflow-x: scroll;
   font-size: 4.25vw;
+}
+
+#footer_divisor {
+  width: 100%;
+  border: 1px solid wheat;
+  margin: 20vw 0 0 0;
+}
+
+#social_media {
+  padding: 6vw 0;
+  justify-content: space-around;
 }

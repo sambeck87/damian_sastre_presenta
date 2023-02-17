@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color: rgb(108, 108, 108);
+  background-color: rgb(0, 0, 0);
 }
 
 .flex {

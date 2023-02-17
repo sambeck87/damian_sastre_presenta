@@ -1,0 +1,60 @@
+#form_container {
+  margin: 0;
+  background-color: black;
+  padding: 8vw 0 8vw 0;
+}
+
+#paragraph {
+  margin: 0 7vw;
+  font-size: 5vw;
+  color: antiquewhite;
+}
+
+#form_section {
+  margin: 5vw 3vw;
+  align-items: center;
+}
+
+#name_container {
+  margin: 0 0 5vw 0;
+  width: 70%;
+  justify-content: center;
+}
+
+#label_name,
+#name {
+  width: 100%;
+  height: 8vw;
+  font-size: 4vw;
+}
+
+#message_container {
+  width: 100%;
+  justify-content: center;
+}
+
+#message_label {
+  width: 70%;
+}
+
+#message_area {
+  width: 100%;
+  height: 40vw;
+  margin: 0 0 5vw 0;
+  font-size: 4vw;
+}
+
+#summit_button {
+  width: 18vw;
+  height: 8vw;
+  background-color: rgb(142, 152, 185);
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 4vw;
+  box-shadow: 0 0 10px rgb(255, 12, 12);
+}
+
+#summit_button:hover {
+  color: rgb(142, 152, 185);
+  background-color: black;
+}
