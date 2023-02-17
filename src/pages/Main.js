@@ -1,4 +1,13 @@
 import React from 'react';
+import {
+  BsFacebook,
+  BsApple,
+  BsSpotify,
+  BsGoogle,
+  BsYoutube,
+  BsInstagram,
+} from 'react-icons/bs';
+import { FaAmazon } from 'react-icons/fa';
 import Cuento from '../components/Cuento';
 import Diario from '../components/Diario';
 import '../styles/commons.css';
@@ -30,6 +39,16 @@ const Main = () => (
     </div>
     <Cuento />
     <Diario />
+    <hr id="footer_divisor" />
+    <div id="social_media" className="flex row">
+      <BsFacebook style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      <BsApple style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      <BsSpotify style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      <BsGoogle style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      <FaAmazon style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      <BsYoutube style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      <BsInstagram style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+    </div>
   </div>
 );
 

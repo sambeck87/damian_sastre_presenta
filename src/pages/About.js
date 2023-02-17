@@ -1,7 +1,17 @@
 import React from 'react';
+import '../styles/commons.css';
+import '../styles/about.css';
 
 const About = () => (
-  <div>About</div>
+  <div id="about_container" className="flex column">
+    <div id="logo" />
+    <p id="about_page">
+      Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Netus et malesuada fames ac.
+      Faucibus purus in massa tempor nec.
+    </p>
+  </div>
 );
 
 export default About;

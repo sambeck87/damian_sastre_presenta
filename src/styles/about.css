@@ -1,0 +1,18 @@
+#about_container {
+  align-items: center;
+}
+
+#logo {
+  background-image: url('../images/logo.jpg');
+  background-size: contain;
+  width: 80vw;
+  height: 53vw;
+  margin: 8vw 0 5vw 0;
+}
+
+#about_page {
+  color: antiquewhite;
+  font-size: 6vw;
+  font-weight: 400;
+  margin: 10vw;
+}
