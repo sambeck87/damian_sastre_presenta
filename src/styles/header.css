@@ -1,3 +1,8 @@
+@font-face {
+  font-family: veteran;
+  src: url('../miselaneus/veteran.ttf');
+}
+
 #header {
   background-color: black;
   color: antiquewhite;
@@ -6,6 +11,7 @@
 }
 
 #title {
-  font-size: 5vw;
+  font-family: veteran, sans-serif;
+  font-size: 6vw;
   margin: 0 3vw 0 3vw;
 }
