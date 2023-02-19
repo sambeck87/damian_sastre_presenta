@@ -41,13 +41,27 @@ const Main = () => (
     <Diario />
     <hr id="footer_divisor" />
     <div id="social_media" className="flex row">
-      <BsFacebook style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
-      <BsApple style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
-      <BsSpotify style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
-      <BsGoogle style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
-      <FaAmazon style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
-      <BsYoutube style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
-      <BsInstagram style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      <a aria-label="facebook" href="https://allmylinks.com/link/out?id=xs3ngt-1e5hw-1dvs87h">
+        <BsFacebook style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      </a>
+      <a aria-label="apple" href="https://allmylinks.com/link/out?id=1fi959u-1k5q2-wgfmsq">
+        <BsApple style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      </a>
+      <a aria-label="spotify" href="https://allmylinks.com/link/out?id=13fmlr1-1e5if-1iqwsot">
+        <BsSpotify style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      </a>
+      <a aria-label="google" href="https://allmylinks.com/link/out?id=6nz3ra-1e5iu-1vvn6zg">
+        <BsGoogle style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      </a>
+      <a aria-label="amazon" href="https://allmylinks.com/link/out?id=1d2h70x-1k3vd-1slqjqo">
+        <FaAmazon style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      </a>
+      <a aria-label="youtube" href="https://allmylinks.com/link/out?id=1bpsth5-1e5hx-1kfwh23">
+        <BsYoutube style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      </a>
+      <a aria-label="instagram" href="https://allmylinks.com/link/out?id=d2v1s9-1e5hy-bplgeq">
+        <BsInstagram style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      </a>
     </div>
   </div>
 );
