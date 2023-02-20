@@ -1,0 +1,17 @@
+#notFound {
+  background-color: rgb(255, 255, 255);
+  padding: 10vw 0 0 0;
+  height: 85vh;
+}
+
+#image {
+  background-image: url('../images/e404.jpg');
+  height: 67vw;
+  background-size: contain;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 8vw;
+  font-weight: 700;
+}
