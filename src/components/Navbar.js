@@ -9,11 +9,13 @@ const Navbar = () => (
       Inicio
     </NavLink>
     <NavLink className={({ isActive }) => (isActive ? 'activeLink style' : 'style')} to="/Capitulos/">
-      Capitulos
+      Podcast
     </NavLink>
-    <NavLink className={({ isActive }) => (isActive ? 'activeLink style' : 'style')} to="/Acerca de/">
+    {/*     <NavLink className={({ isActive }) =>
+     (isActive ? 'activeLink style' : 'style')} to="/
+     Acerca de/">
       Acerca de
-    </NavLink>
+    </NavLink> */}
     <NavLink className={({ isActive }) => (isActive ? 'activeLink style' : 'style')} to="/Contacto/">
       Contacto
     </NavLink>

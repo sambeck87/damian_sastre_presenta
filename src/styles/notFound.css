@@ -10,7 +10,7 @@
   background-size: contain;
 }
 
-p {
+#notFoundMesagge {
   color: rgb(0, 0, 0);
   font-size: 8vw;
   font-weight: 700;

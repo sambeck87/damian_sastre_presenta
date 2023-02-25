@@ -4,7 +4,7 @@ import '../styles/notFound.css';
 
 const NoFound = () => (
   <div id="notFound" className="flex column">
-    <p className="center">
+    <p id="notFoundMesagge" className="center">
       Querido gato loco, creo que erraste el camino. Regresa a la página de inicio.
     </p>
     <div id="image" />

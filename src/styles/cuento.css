@@ -48,3 +48,34 @@
 .rapidin_release {
   margin: 0 0 5vw 0;
 }
+
+@media screen and (min-width: 768px) {
+  #dejame_container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #main_subtitle {
+    font-size: 3vw;
+    width: 100%;
+  }
+
+  .cuento_content {
+    width: 40%;
+  }
+
+  .ultimo {
+    font-size: 2vw;
+  }
+
+  .main_image {
+    width: 100%;
+    height: auto;
+  }
+
+  .divisor {
+    margin: 0 5vw;
+    width: 1px;
+  }
+}

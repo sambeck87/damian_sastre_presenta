@@ -30,3 +30,21 @@
   padding: 6vw 0;
   justify-content: space-around;
 }
+
+@media screen and (min-width: 768px){
+  #me {
+    justify-content: center;
+  }
+  .damian_image {
+    height: 21vw;
+    width:14vw;
+  }
+
+  #about_me {
+    font-size: 1.1vw;
+    margin: 0;
+    line-height: 2vw;
+    height: 30vw;
+    overflow-x: hidden;
+  }
+}

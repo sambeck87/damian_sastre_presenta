@@ -9,13 +9,16 @@ import {
 } from 'react-icons/bs';
 import { FaAmazon } from 'react-icons/fa';
 import Cuento from '../components/Cuento';
-import Diario from '../components/Diario';
+// import Diario from '../components/Diario';
 import '../styles/commons.css';
 import '../styles/main.css';
 
 const Main = () => (
   <div id="main_container">
-    <div className="flex row">
+    <div id="header" className="flex row">
+      <h1 id="title">Damian Sastré Presenta:</h1>
+    </div>
+    <div id="me" className="flex row">
       <div className="damian_image" />
       <p id="about_me">
         Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -38,7 +41,7 @@ const Main = () => (
       </p>
     </div>
     <Cuento />
-    <Diario />
+    {/* <Diario /> */}
     <hr id="footer_divisor" />
     <div id="social_media" className="flex row">
       <a aria-label="facebook" href="https://allmylinks.com/link/out?id=xs3ngt-1e5hw-1dvs87h">

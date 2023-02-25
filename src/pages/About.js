@@ -4,6 +4,9 @@ import '../styles/about.css';
 
 const About = () => (
   <div id="about_container" className="flex column">
+    <div id="header" className="flex row">
+      <h1 id="title">acerca de:</h1>
+    </div>
     <div id="logo" />
     <p id="about_page">
       Lorem ipsum dolor sit amet, consectetur adipiscing

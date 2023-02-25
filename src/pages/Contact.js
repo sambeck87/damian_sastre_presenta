@@ -4,6 +4,9 @@ import '../styles/contact.css';
 
 const Contact = () => (
   <div id="form_container">
+    <div id="header" className="flex row">
+      <h1 id="titleContacto">Contacto:</h1>
+    </div>
     <p id="paragraph" className="center">
       Lorem ipsum dolor sit amet, consectetur adipiscing
       elit, sed do eiusmod tempor incididunt ut labore et
