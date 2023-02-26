@@ -1,23 +1,26 @@
 import React from 'react';
 import {
   BsFacebook,
-  BsApple,
   BsSpotify,
-  BsGoogle,
   BsYoutube,
   BsInstagram,
 } from 'react-icons/bs';
-import { FaAmazon } from 'react-icons/fa';
+import { SiAnchor } from 'react-icons/si';
 import Cuento from '../components/Cuento';
-import Diario from '../components/Diario';
 import '../styles/commons.css';
 import '../styles/main.css';
 
 const Main = () => (
   <div id="main_container">
-    <div className="flex row">
+    <div id="mainHeader" className="flex row">
+      <h1 id="mainTitle" className="flex row">
+        <p className="babylonica damian">Damián Sastré</p>
+        <p className="garamond presenta">presenta:</p>
+      </h1>
+    </div>
+    <div id="me" className="flex row">
       <div className="damian_image" />
-      <p id="about_me">
+      <p className="garamond" id="about_me">
         Lorem ipsum dolor sit amet, consectetur adipiscing
         elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna aliqua. Netus et malesuada fames ac.
@@ -38,29 +41,23 @@ const Main = () => (
       </p>
     </div>
     <Cuento />
-    <Diario />
+    {/* <Diario /> */}
     <hr id="footer_divisor" />
     <div id="social_media" className="flex row">
-      <a aria-label="facebook" href="https://allmylinks.com/link/out?id=xs3ngt-1e5hw-1dvs87h">
-        <BsFacebook style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
-      </a>
-      <a aria-label="apple" href="https://allmylinks.com/link/out?id=1fi959u-1k5q2-wgfmsq">
-        <BsApple style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      <a aria-label="instagram" href="https://allmylinks.com/link/out?id=d2v1s9-1e5hy-bplgeq">
+        <BsInstagram style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
       </a>
       <a aria-label="spotify" href="https://allmylinks.com/link/out?id=13fmlr1-1e5if-1iqwsot">
         <BsSpotify style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
       </a>
-      <a aria-label="google" href="https://allmylinks.com/link/out?id=6nz3ra-1e5iu-1vvn6zg">
-        <BsGoogle style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      <a aria-label="spotify" href="https://allmylinks.com/link/out?id=13fmlr1-1e5if-1iqwsot">
+        <SiAnchor style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
       </a>
-      <a aria-label="amazon" href="https://allmylinks.com/link/out?id=1d2h70x-1k3vd-1slqjqo">
-        <FaAmazon style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+      <a aria-label="facebook" href="https://www.facebook.com/damiansastreconacentoenlae">
+        <BsFacebook style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
       </a>
       <a aria-label="youtube" href="https://allmylinks.com/link/out?id=1bpsth5-1e5hx-1kfwh23">
         <BsYoutube style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
-      </a>
-      <a aria-label="instagram" href="https://allmylinks.com/link/out?id=d2v1s9-1e5hy-bplgeq">
-        <BsInstagram style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
       </a>
     </div>
   </div>

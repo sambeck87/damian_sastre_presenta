@@ -29,3 +29,15 @@ body {
 .center {
   text-align: center;
 }
+
+.babylonica {
+  font-family: 'Babylonica', cursive, sans-serif;
+}
+
+.gloock {
+  font-family: 'Gloock', serif, sans-serif;
+}
+
+.garamond {
+  font-family: 'EB Garamond', serif;
+}

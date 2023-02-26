@@ -21,6 +21,9 @@ const Chapters = () => {
 
   return (
     <div className="chaptersContainer">
+      <div id="header" className="flex row">
+        <h1 id="title">Déjame leerte un cuento:</h1>
+      </div>
       <input className="searcher" value={search} id="search" type="text" placeholder=" Busqueda por Título o Autor" onChange={searchHandle} />
       {
         filtered.map((element) => (
