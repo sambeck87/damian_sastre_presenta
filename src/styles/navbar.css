@@ -1,11 +1,15 @@
 #nav {
   background-color: black;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
-  height: 8vw;
+  height: 15vw;
+  position: fixed;
+  width: 100%;
 }
 
 .style {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
   text-decoration: none;
   color: antiquewhite;
   font-size: 4.5vw;
@@ -14,4 +18,12 @@
 .activeLink {
   color: rgb(255, 179, 179);
   text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+.podcast {
+  margin: 0 4vw 0 4.6vw;
+}
+
+.contacto {
+  margin: 0 3vw 0 0;
 }

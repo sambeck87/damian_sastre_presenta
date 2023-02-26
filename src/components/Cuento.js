@@ -19,11 +19,11 @@ const Cuento = () => {
     }
     return (
       <div id="dejame_container" className="flex column">
-        <h2 id="main_subtitle" className="center">
+        <h2 id="main_subtitle" className="center garamond">
           Déjame leerte un cuento
         </h2>
         <div className="flex column cuento_content">
-          <h3 className="ultimo">Último Capítulo</h3>
+          <h3 className="ultimo garamond">Último Capítulo</h3>
           <a href={capitulo.external_urls.spotify}><img className="main_image" src={capitulo.images[1].url} alt="Imagen_capitulo" /></a>
           <span className="center description">{capitulo.name}</span>
           <span className="release">
@@ -33,7 +33,7 @@ const Cuento = () => {
         </div>
         <hr className="divisor" />
         <div className="flex column cuento_content">
-          <h3 className="ultimo" id="ultimo_rapidin">Último Rapidín</h3>
+          <h3 className="ultimo" id="ultimo_rapidin garamond">Último Rapidín</h3>
           <a href={rapidin.external_urls.spotify}><img className="main_image" src={rapidin.images[1].url} alt="Imagen_rapidin" /></a>
           <span className="center description">{rapidin.name}</span>
           <span className="rapidin_release release">

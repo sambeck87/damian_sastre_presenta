@@ -8,7 +8,7 @@ const Navbar = () => (
     <NavLink className={({ isActive }) => (isActive ? 'activeLink style' : 'style')} to="/">
       Inicio
     </NavLink>
-    <NavLink className={({ isActive }) => (isActive ? 'activeLink style' : 'style')} to="/Capitulos/">
+    <NavLink className={({ isActive }) => (isActive ? 'activeLink style podcast' : 'style podcast')} to="/Capitulos/">
       Podcast
     </NavLink>
     {/*     <NavLink className={({ isActive }) =>
@@ -16,7 +16,7 @@ const Navbar = () => (
      Acerca de/">
       Acerca de
     </NavLink> */}
-    <NavLink className={({ isActive }) => (isActive ? 'activeLink style' : 'style')} to="/Contacto/">
+    <NavLink className={({ isActive }) => (isActive ? 'activeLink style contacto' : 'style contacto')} to="/Contacto/">
       Contacto
     </NavLink>
   </div>
