@@ -25,7 +25,6 @@
   margin: 5.85vw 0 0 2vw;
   font-size: 5vw;
   font-weight: 400;
-  height: fit-content;
 }
 
 #me {
@@ -59,13 +58,14 @@
   justify-content: space-around;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   #me {
     justify-content: center;
   }
+
   .damian_image {
     height: 21vw;
-    width:14vw;
+    width: 14vw;
   }
 
   #about_me {
