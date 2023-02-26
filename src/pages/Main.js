@@ -50,7 +50,7 @@ const Main = () => (
       <a aria-label="spotify" href="https://allmylinks.com/link/out?id=13fmlr1-1e5if-1iqwsot">
         <BsSpotify style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
       </a>
-      <a aria-label="spotify" href="https://allmylinks.com/link/out?id=13fmlr1-1e5if-1iqwsot">
+      <a aria-label="achor" href="https://anchor.fm/damian-sastre">
         <SiAnchor style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
       </a>
       <a aria-label="facebook" href="https://www.facebook.com/damiansastreconacentoenlae">
