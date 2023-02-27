@@ -80,7 +80,7 @@
   }
 
   .divisor {
-    margin: 0 5vw;
+    margin: 0 5vw 4vw 5vw;
     width: 1px;
   }
 
@@ -96,9 +96,5 @@
   .release,
   .description {
     font-size: 1.2vw;
-  }
-
-  .divisor {
-    margin-bottom: 4vw;
   }
 }
