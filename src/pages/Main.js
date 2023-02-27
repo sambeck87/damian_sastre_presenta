@@ -45,19 +45,19 @@ const Main = () => (
     <hr id="footer_divisor" />
     <div id="social_media" className="flex row">
       <a aria-label="instagram" href="https://allmylinks.com/link/out?id=d2v1s9-1e5hy-bplgeq">
-        <BsInstagram style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+        <BsInstagram className="media_icon" style={{ color: '#fff', marginTop: '2px' }} />
       </a>
       <a aria-label="spotify" href="https://allmylinks.com/link/out?id=13fmlr1-1e5if-1iqwsot">
-        <BsSpotify style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+        <BsSpotify className="media_icon" style={{ color: '#fff', marginTop: '2px' }} />
       </a>
       <a aria-label="achor" href="https://anchor.fm/damian-sastre">
-        <SiAnchor style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+        <SiAnchor className="media_icon" style={{ color: '#fff', marginTop: '2px' }} />
       </a>
       <a aria-label="facebook" href="https://www.facebook.com/damiansastreconacentoenlae">
-        <BsFacebook style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+        <BsFacebook className="media_icon" style={{ color: '#fff', marginTop: '2px' }} />
       </a>
       <a aria-label="youtube" href="https://allmylinks.com/link/out?id=1bpsth5-1e5hx-1kfwh23">
-        <BsYoutube style={{ color: '#fff', fontSize: '20px', marginTop: '2px' }} />
+        <BsYoutube className="media_icon" style={{ color: '#fff', marginTop: '2px' }} />
       </a>
     </div>
   </div>
