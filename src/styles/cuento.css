@@ -66,16 +66,12 @@
   }
 
   #main_subtitle {
-    font-size: 3vw;
+    font-size: 4vw;
     width: 100%;
   }
 
   .cuento_content {
     width: 40%;
-  }
-
-  .ultimo {
-    font-size: 2vw;
   }
 
   .main_image {
@@ -84,7 +80,21 @@
   }
 
   .divisor {
-    margin: 0 5vw;
+    margin: 0 5vw 4vw 5vw;
     width: 1px;
+  }
+
+  .damian {
+    font-size: 8vw;
+  }
+
+  .ultimo {
+    margin-top: 0;
+    font-size: 2.5vw;
+  }
+
+  .release,
+  .description {
+    font-size: 1.2vw;
   }
 }

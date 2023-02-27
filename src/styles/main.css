@@ -58,7 +58,19 @@
   justify-content: space-around;
 }
 
+.media_icon {
+  font-size: 20px;
+}
+
 @media screen and (min-width: 768px) {
+  #main_container {
+    padding: 3vw 0 0 0;
+  }
+
+  #mainHeader {
+    height: 14vw;
+  }
+
   #me {
     justify-content: center;
   }
@@ -74,5 +86,18 @@
     line-height: 2vw;
     height: 30vw;
     overflow-x: hidden;
+  }
+
+  .presenta {
+    margin: 4.2vw 0 0 1.3vw;
+    font-size: 3vw;
+  }
+
+  #social_media {
+    padding: 3vw 0;
+  }
+
+  .media_icon {
+    font-size: 2.5vw;
   }
 }
