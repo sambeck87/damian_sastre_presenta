@@ -21,17 +21,14 @@ const Chapters = () => {
 
   return (
     <div className="chaptersContainer">
-      <div id="header" className="flex row">
-        <h1 id="title">Déjame leerte un cuento:</h1>
-      </div>
-      <input className="searcher" value={search} id="search" type="text" placeholder=" Busqueda por Título o Autor" onChange={searchHandle} />
+      <input className="searcher" value={search} id="search" type="text" placeholder=" Búsqueda por Título o Autor" onChange={searchHandle} />
       {
         filtered.map((element) => (
-          <div key={element.id} className="chapterContainer flex row wrap">
-            <div>
+          <div key={element.id} className="chapterContainer d-flex flex-row flex-wrap">
+            <div className="image_container">
               <img className="thumb" src={element.images[1].url} alt="" />
             </div>
-            <div className="list_name flex column">
+            <div className="list_name d-flex flex-column">
               {element.name}
               <div className="time">
                 Duración aprox.:&nbsp;
@@ -42,7 +39,7 @@ const Chapters = () => {
               </div>
             </div>
             <div className="spotify_link">
-              <a className="chap_link flex row" href={element.external_urls.spotify}>
+              <a className="chap_link d-flex flex-row" href={element.external_urls.spotify}>
                 <BsSpotify style={{ color: '#1db954', fontSize: '20px', marginTop: '2px' }} />
                 &nbsp;&nbsp;Escúchalo en Spotify
               </a>

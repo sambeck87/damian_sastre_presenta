@@ -4,7 +4,7 @@ import '../styles/commons.css';
 import '../styles/navbar.css';
 
 const Navbar = () => (
-  <div id="nav" className="flex row">
+  <div id="nav" className="d-flex flex-row">
     <NavLink className={({ isActive }) => (isActive ? 'activeLink style' : 'style')} to="/">
       Inicio
     </NavLink>

@@ -1,5 +1,7 @@
 .chaptersContainer {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgb(255, 255, 255, 0.1)), url('../images/biblioteca.jpg');
+  background-color: black;
+  padding-top: 70px;
+  min-height: 100vh;
 }
 
 .searcher {
@@ -12,10 +14,10 @@
 }
 
 .chapterContainer {
-  border: solid 1px rgb(255, 255, 255);
+  border: solid 5px rgb(47, 4, 4);
   border-radius: 10px;
   margin: 0 3vw 3vw 3vw;
-  background-color: rgb(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.1);
   font-size: 4.3vw;
   color: white;
 }
@@ -52,4 +54,55 @@
 
 .chap_link::after {
   color: bisque;
+}
+
+@media screen and (min-width: 768px) {
+  .searcher {
+    background-color: rgb(240, 248, 255, 0.6);
+    width: 100%;
+    padding: 0.5rem 0;
+    border: none;
+    margin: 0 0 3rem 0;
+    font-size: 2rem;
+  }
+
+  .chaptersContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .chapterContainer {
+    width: 25%;
+    height: 15rem;
+    font-size: 1rem;
+  }
+
+  .image_container {
+    width: 25%;
+    height: 50%;
+  }
+
+  .thumb {
+    width: 65%;
+    height: auto;
+    border-radius: 50%;
+    margin: 30px 1rem 0 1rem;
+  }
+
+  .list_name {
+    width: 60%;
+    height: auto;
+    margin: 30px 30px 0 0;
+  }
+
+  .time {
+    margin-top: 1rem;
+  }
+
+  .spotify_link {
+    margin: 0;
+    height: 20px;
+  }
 }
