@@ -31,7 +31,7 @@ const Cuento = () => {
             {capitulo.release_date}
           </span>
         </div>
-        <hr className="chapter_divisor" />
+        <div className="chapter_divisor" />
         <div className="d-flex flex-column cuento_content">
           <h3 className="ultimo garamond" id="ultimo_rapidin">Último Rapidín</h3>
           <a href={rapidin.external_urls.spotify}><img className="main_image" src={rapidin.images[1].url} alt="Imagen_rapidin" /></a>

@@ -45,7 +45,7 @@
 
 .chapter_divisor {
   width: 35vw;
-  border: 2px solid rgb(255, 0, 0);
+  border: 2px solid rgb(47, 4, 4);
   border-radius: 25%;
   margin: 10vw 29vw;
 }
@@ -85,8 +85,9 @@
   }
 
   .chapter_divisor {
-    margin: 0 5vw 4vw 5vw;
+    margin: 2vw 5vw 2vw 5vw;
     width: 1px;
+    height: 28rem;
   }
 
   .damian {
