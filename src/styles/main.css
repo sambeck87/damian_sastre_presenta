@@ -47,6 +47,15 @@
   font-size: 4vw;
 }
 
+#gato {
+  background-image: url('../images/gato.png');
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 190px;
+  background-size: contain;
+  margin-top: -50px;
+}
+
 #footer_divisor {
   width: 100%;
   border: 2px solid rgb(0, 0, 0);
@@ -84,7 +93,7 @@
     font-size: 1.1vw;
     margin: 0;
     line-height: 2vw;
-    height: 30vw;
+    height: 21vw;
     overflow-x: hidden;
   }
 

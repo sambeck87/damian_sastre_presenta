@@ -29,25 +29,63 @@ const Main = () => (
     </div>
     <div id="me" className="d-flex flex-row">
       <div className="damian_image" />
-      <p className="garamond" id="about_me">
-        Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Netus et malesuada fames ac.
-        Faucibus purus in massa tempor nec. Consectetur
-        lorem donec massa sapien. Quam adipiscing vitae
-        proin sagittis nisl. Purus gravida quis blandit
-        turpis cursus in. Magnis dis parturient montes
-        nascetur ridiculus mus mauris vitae ultricies.
-        Iaculis urna id volutpat lacus laoreet non.
-        Pellentesque elit ullamcorper dignissim cras
-        tincidunt. Amet aliquam id diam maecenas ultricies
-        mi eget mauris pharetra. Elit sed vulputate mi sit
-        amet mauris. Tellus elementum sagittis vitae et leo
-        duis ut diam. Velit aliquet sagittis id consectetur
-        purus ut. Consectetur lorem donec massa sapien
-        faucibus et molestie ac feugiat. Non quam lacus
-        suspendisse faucibus interdum posuere lorem.
-      </p>
+      <div className="garamond text-justify" id="about_me">
+        <p>
+          Hola, ¿qué tal? Adelante,
+          encuentra un lugar que te sea cómodo y toma asiento.
+        </p>
+
+        <p>
+          Antes de entrar en materia, permíteme presentarme…
+        </p>
+
+        <p>
+          Soy Damián Sastré, escritor autodidacta,
+          actor de teatro, artista digital y capitán de esta nave de los gatos
+          locos. Nací el 23 de agosto de 1988 en Tampico, Tamaulipas, México.
+        </p>
+
+        <p>
+          Una vez realizada la debida presentación, déjame hablarte un poco acerca de este sitio…
+        </p>
+
+        <p>
+          Si te aventuras a deambular por sus pasillos encontrarás, recopilado,
+          casi todo el contenido virtual creado y publicado por mí hasta el día
+          de hoy. Si, además, te atreves a husmear por sus múltiples entresijos…
+          quizá acabes desvelando algunos de sus secretos e, incluso, acabes hallando
+          el modo de agregar tu nombre a la lista de tripulantes célebres.
+        </p>
+
+        <p>
+          Pero…
+        </p>
+
+        <p>
+          Ten cuidado, si por algún motivo fueses más allá de las fronteras de este
+          binario rincón… podrías acabar tus días en mitad de la nada.
+        </p>
+
+        <p>
+          Cualquier duda, comentario, queja o sugerencia con respecto a esta nave de
+          los gatos locos… puedes dirigirte al apartado Contacto y entregarte a la catarsis.
+        </p>
+
+        <p>
+          Sin más por el momento que desearte una placentera estancia y esperando
+          ver, muy pronto, tu nombre inscrito en la lista de tripulantes célebres… me despido.
+        </p>
+
+        <div>
+          <p className="text-center"> Atentamente:</p>
+        </div>
+        <div>
+          <p className="mx-auto" id="firma" />
+        </div>
+        <div>
+          <p className="mx-auto" id="gato" />
+        </div>
+      </div>
     </div>
     <Cuento />
     {/* <Diario /> */}
@@ -69,7 +107,7 @@ const Main = () => (
       </a>
     </div>
     <div className="collapse bg-black margin_colap mb-3" id="podcast">
-      <div className="card card-body bg-black d-flex flex-row justify-content-around">
+      <div className="card card-body bg-transparent d-flex flex-row justify-content-around">
         <a aria-label="spotify" href="https://allmylinks.com/link/out?id=13fmlr1-1e5if-1iqwsot">
           <BsSpotify className="media_icon" style={{ color: '#fff', marginTop: '2px' }} />
         </a>
