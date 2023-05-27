@@ -7,7 +7,6 @@ const About = () => (
     <div id="header" className="d-flex row">
       <h1 id="title">acerca de:</h1>
     </div>
-    <div id="logo" />
     <p id="about_page">
       Lorem ipsum dolor sit amet, consectetur adipiscing
       elit, sed do eiusmod tempor incididunt ut labore et

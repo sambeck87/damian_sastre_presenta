@@ -1,17 +1,27 @@
 #notFound {
-  background-color: rgb(255, 255, 255);
   padding: 10vw 0 0 0;
-  height: 85vh;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 9rem 5rem 0 3rem;
+  line-height: 4rem;
+  overflow-y: scroll;
+}
+
+.notFoundMesagge {
+  color: rgb(255, 0, 0);
+  -webkit-text-stroke: 1px rgb(100, 0, 0);
 }
 
 #image {
-  background-image: url('../images/e404.jpg');
-  height: 67vw;
+  background-image: url('../images/e404.png');
+  background-repeat: no-repeat;
+  width: 20rem;
+  height: 20rem;
   background-size: contain;
 }
 
-#notFoundMesagge {
-  color: rgb(0, 0, 0);
-  font-size: 8vw;
-  font-weight: 700;
+.text-justify {
+  text-align: justify;
 }
