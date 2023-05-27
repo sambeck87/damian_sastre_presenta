@@ -50,8 +50,8 @@
 #gato {
   background-image: url('../images/gato.png');
   background-repeat: no-repeat;
-  width: 140px;
-  height: 190px;
+  width: 100px;
+  height: 150px;
   background-size: contain;
   margin-top: -50px;
 }

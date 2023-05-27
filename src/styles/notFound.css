@@ -16,8 +16,8 @@
 #firma {
   background-image: url('../images/firma.png');
   background-repeat: no-repeat;
-  width: 14rem;
-  height: 10rem;
+  width: 28vw;
+  height: 20vw;
   background-size: contain;
 }
 
@@ -31,4 +31,14 @@
 
 .text-justify {
   text-align: justify;
+}
+
+@media screen and (min-width: 768px) {
+  #firma {
+    background-image: url('../images/firma.png');
+    background-repeat: no-repeat;
+    width: 14rem;
+    height: 10rem;
+    background-size: contain;
+  }
 }
