@@ -10,6 +10,10 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
+.bg-black {
+  background-color: black;
+}
+
 .flex {
   display: flex;
 }
@@ -40,4 +44,8 @@ body {
 
 .garamond {
   font-family: 'EB Garamond', serif;
+}
+
+.margin_colap {
+  margin-top: -45px;
 }

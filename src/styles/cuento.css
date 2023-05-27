@@ -43,9 +43,9 @@
   color: #e2e1da;
 }
 
-.divisor {
+.chapter_divisor {
   width: 35vw;
-  border: 2px solid rgb(47, 4, 4);
+  border: 2px solid rgb(255, 0, 0);
   border-radius: 25%;
   margin: 10vw 29vw;
 }
@@ -56,6 +56,11 @@
 
 .rapidin_release {
   margin: 0 0 5vw 0;
+}
+
+.chapter_containers {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
@@ -79,7 +84,7 @@
     height: auto;
   }
 
-  .divisor {
+  .chapter_divisor {
     margin: 0 5vw 4vw 5vw;
     width: 1px;
   }
@@ -96,5 +101,13 @@
   .release,
   .description {
     font-size: 1.2vw;
+  }
+
+  .chapter_containers {
+    flex-direction: row;
+  }
+
+  #ultimo_rapidin {
+    margin-bottom: 0.5rem;
   }
 }

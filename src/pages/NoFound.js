@@ -3,8 +3,8 @@ import '../styles/commons.css';
 import '../styles/notFound.css';
 
 const NoFound = () => (
-  <div id="notFound" className="flex column">
-    <p id="notFoundMesagge" className="center">
+  <div id="notFound" className="d-flex flex-column">
+    <p id="notFoundMesagge" className="text-center">
       SÓLO EN CASO DE QUE ALGÚN GATO LOCO,
       ALGÚN DÍA, ENCUENTRA ESTA NOTA
       ¡OJALÁ QUE NUNCA OCURRA!

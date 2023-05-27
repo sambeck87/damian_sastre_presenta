@@ -3,8 +3,8 @@ import '../styles/commons.css';
 import '../styles/about.css';
 
 const About = () => (
-  <div id="about_container" className="flex column">
-    <div id="header" className="flex row">
+  <div id="about_container" className="d-flex flex-column">
+    <div id="header" className="d-flex row">
       <h1 id="title">acerca de:</h1>
     </div>
     <div id="logo" />
