@@ -1,5 +1,4 @@
 #notFound {
-  padding: 10vw 0 0 0;
   background-color: black;
   color: white;
   font-size: 24px;
@@ -12,6 +11,14 @@
 .notFoundMesagge {
   color: rgb(255, 0, 0);
   -webkit-text-stroke: 1px rgb(100, 0, 0);
+}
+
+#firma {
+  background-image: url('../images/firma.png');
+  background-repeat: no-repeat;
+  width: 14rem;
+  height: 10rem;
+  background-size: contain;
 }
 
 #image {

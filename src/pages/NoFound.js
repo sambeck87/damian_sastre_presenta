@@ -47,7 +47,9 @@ const NoFound = () => (
     <br />
 
     <span className="text-center"> Atentamente:</span>
-    <span className="text-center">Damián Sastré</span>
+    <div>
+      <p className="mx-auto" id="firma" />
+    </div>
 
     <div>
       <p className="mx-auto" id="image" />
