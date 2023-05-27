@@ -6,14 +6,8 @@ const Contact = () => (
   <div id="form_container">
     <div className="text_form">
       <div id="header" className="d-flex flex-row">
-        <h1 id="titleContacto" className="mx-auto">Contacto:</h1>
+        <h1 id="titleContacto" className="mx-auto">¡Catarsis... aquí!:</h1>
       </div>
-      <p id="paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Netus et malesuada fames ac.
-        Faucibus purus in massa tempor nec.
-      </p>
     </div>
     <form id="form_section" className="d-flex flex-column" action="https://formspree.io/f/mwkjoewd" method="post">
       <div id="name_container" className="d-flex">
