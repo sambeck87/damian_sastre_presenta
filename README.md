@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="https://i.ibb.co/kJ82RQb/Captura-desde-2023-04-25-18-33-13.png" alt="logo" width="200"  height="auto" />
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/35/0c/94/350c94b9-4eee-05c5-3229-3f1d4c8c5be5/mza_18252577115336934967.jpg/1200x1200bb.jpg" alt="logo" width="200"  height="auto" />
   <br/>
 </div>
 
