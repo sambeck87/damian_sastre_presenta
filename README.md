@@ -1,70 +1,198 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="https://i.ibb.co/kJ82RQb/Captura-desde-2023-04-25-18-33-13.png" alt="logo" width="200"  height="auto" />
+  <br/>
+</div>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📗 Table of Contents](#-table-of-contents)
+- [Damián Sastré preseta ](#damián-sastré-preseta-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [Live Demo ](#live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+  - [To get a local copy up and running, follow these steps.](#to-get-a-local-copy-up-and-running-follow-these-steps)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Deployment](#deployment)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- PROJECT DESCRIPTION -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#  Damián Sastré preseta <a name="about-project"></a>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Damián Sastré preseta** is a SPA to promote Damian's Spotify podcast. On this page, you can know more about the writer and actor Damián Sastré and why he decided to initiate this awesome project.
 
-### `npm run build`
+This application allows you to:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- View what was the last story published in his podcast.
+- View what was the last "Rapidín" published in his podcast.
+- View the complete list of chapters.
+- View the complete list of platforms where you can find his content.
+- Filter and find a tail by title or author.
+- Get in contact with Damian using a form to send him a message.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ <br>
+## 🛠 Built With <a name="built-with"></a>
+- React
+- Redux
+- Bootstrap
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tech Stack <a name="tech-stack"></a>
+- Visual code
+- Git
 
-### `npm run eject`
+<!-- Features -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Key Features <a name="key-features"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Use the official Spotify API.
+- Use Redux and React Hooks.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- LIVE DEMO -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Live Demo <a name="live-demo"></a>
 
-### Code Splitting
+- [Live Demo Version](https://damian-sastre-presenta.onrender.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Making a Progressive Web App
+ ## To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Prerequisites
 
-### Advanced Configuration
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Git
+- A GitHub account
+- Node installed
+
+### Setup
+
+Clone this repository to your desired folder:
+
+- Go to this repo and copy the project link
+        https://github.com/sambeck87/damian_sastre_presenta
+- Open your terminal and clone the repo with this command
+```
+git clone https://github.com/sambeck87/damian_sastre_presenta.git
+```
+- Now, you have a copy on your pc.
+
+
+### Install
+
+Install this project with:
+
+- In your console run the command:
+```
+npm install
+```
+
+
+### Usage
+
+To run the project, execute the following steps:
+
+- Run the local host
+```
+npm start
+```
+- Open your browser and go to the following URL:
+http://127.0.0.1:3000
+
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This page was deployed using reder.com platform
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
+
+
+- 👤 **Sandro Hernandez**
+
+  - GitHub: [@sambeck87](https://github.com/sambeck87)
+  - Twitter: [@sambeck4488](https://twitter.com/sambeck4488)
+  - LinkedIn: [LinkedIn](https://www.linkedin.com/in/sandro-israel-hern%C3%A1ndez-zamora-899386a4/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **It will implement email confirmations**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/sambeck87/damian_sastre_presenta/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+If you like this project give a ⭐️ or send us a message. We will appreciate
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Gregoire Vella whose design inspired the creation of this application. You can see more of her work on [Behanse](https://www.behance.net/gregoirevella)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **Can I use the code of this project**
+
+  - Sure. We will be happy to collaborate on your projects. This project is MIT licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
