@@ -11,6 +11,7 @@
   border: none;
   margin: 0 0 3vw 0;
   font-size: 5vw;
+  max-height: 4rem;
 }
 
 .chapterContainer {
